@@ -1,0 +1,87 @@
+a{
+    color: black;
+    text-decoration: none;
+    font-family: baskerville;
+}
+.wrapper{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#skön {
+    display: inline-block;
+    font-family: baskerville;
+    text-align: center;
+    font-size: 70px;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 33px;
+    font-family: baskerville;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+aside {
+    text-align: center;
+    height: 500px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 400px;
+    display: inline-block;
+    margin-right: 100px;
+}
+content {
+    width: 900px;
+    float: right;
+   
+}
+
+content p{
+    
+    width: 500px;
+}
+#test {
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+aside h1{
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+aside p {
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 30px;
+    
+}
+#nyesteindlæg {
+    margin: 0;
+    padding: 0;
+}
+
+.article{
+    width: 300px;
+}
+
+.article_h1{
+    border-bottom: 1px solid black;
+}
